@@ -1,4 +1,4 @@
-package com.mgsystems.mgcatalog.exceptions;
+package com.mgsystems.mgcatalog.services.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException {
 
