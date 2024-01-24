@@ -78,11 +78,8 @@ public class ProductService {
 		
 		try {
 			Product entity = repository.getReferenceById(id);
-			
 			copyDtoToEntity(dto, entity);
-			
 			entity = repository.save(entity);
-			
 			return new ProductDTO(entity);
 		}
 		catch (EntityNotFoundException e) {
@@ -107,7 +104,6 @@ public class ProductService {
 			
 			Category cat = categoryRepository.getReferenceById(catDTO.getId());
 			entity.getCategories().add(cat);
-			
 		}
 	}
 

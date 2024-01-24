@@ -26,7 +26,7 @@ public class Factory {
 	
 	public static Category createCategory() {
 		
-		Category category= new Category(2L, "Electronics");
+		Category category= new Category(1L, "Electronics");
 		
 		return category;
 	}

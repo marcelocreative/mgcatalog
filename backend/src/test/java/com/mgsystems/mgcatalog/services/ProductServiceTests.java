@@ -19,7 +19,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import com.mgsystems.mgcatalog.dto.CategoryDTO;
 import com.mgsystems.mgcatalog.dto.ProductDTO;
 import com.mgsystems.mgcatalog.entities.Category;
 import com.mgsystems.mgcatalog.entities.Product;

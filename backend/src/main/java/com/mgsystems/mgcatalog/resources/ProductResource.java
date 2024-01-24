@@ -47,7 +47,7 @@ public class ProductResource {
 		
 		service.delete(id);
 		
-		return ResponseEntity.notFound().build();
+		return ResponseEntity.noContent().build();
 	}
 	
 	@PostMapping
