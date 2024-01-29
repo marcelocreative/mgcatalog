@@ -5,11 +5,19 @@ import java.util.Set;
 
 import com.mgsystems.mgcatalog.entities.User;
 
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+
 public class UserDTO {
 
 	private Long id;
+	
+	@NotBlank(message = "Campo requerido")
 	private String firstName;
+	
 	private String lastName;
+	
+	@Email(message="Digitar email válido")
 	private String email;
 	
 	private Set<RoleDTO> roles= new HashSet<>();
