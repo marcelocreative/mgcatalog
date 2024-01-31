@@ -1,5 +1,8 @@
 package com.mgsystems.mgcatalog.dto;
 
+import com.mgsystems.mgcatalog.services.validation.UserInsertValid;
+
+@UserInsertValid
 public class UserInsertDTO extends UserDTO {
 
 	private String password;
